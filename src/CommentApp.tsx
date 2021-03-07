@@ -3,7 +3,7 @@ import CommentList from "./CommentList";
 
 function CommentApp() {
   return (
-    <div>
+    <div className="max-w-md my-8 mx-auto bg-gray-200 rounded-lg shadow-lg p-4">
       <CommentInput />
       <CommentList />
     </div>
